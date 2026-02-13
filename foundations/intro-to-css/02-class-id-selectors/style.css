@@ -1,1 +1,32 @@
-/* Add CSS Styling */
+/*Here all of the even ID selectors will have shared delclarations.
+* We could use the type selectors here, but we wont assume a p elements
+* are odd.*/
+.one,
+.three,
+.five{
+    /*adding pale red background color using hex value.*/
+    background-color: #ffb6c1;
+    /*Using two font families with sans-serif as a fallback.*/
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/*Styling using class selector*/
+#two{
+    /*change the font color to blue using hsl.*/
+    color: hsl(240,100%,50%);
+    font-size: 36px;
+}
+
+/*Here we add an unique declarations for the third selector
+* using ID selector*/
+.three{
+    font-size: 24px;
+}
+
+/*Styling using class selector*/
+#four{
+    /*Adding a background color of light green using rgb values*/
+    background-color: rgb(144,238,144);
+    font-size: 24px;
+    font-weight: bold;
+}
