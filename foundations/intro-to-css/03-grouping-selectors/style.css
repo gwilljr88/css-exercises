@@ -1,1 +1,6 @@
-/* Add CSS Styling */
+/*Grouping selectors for first and second element.*/
+.first,
+.second{
+    font-size: 28px;
+    font-family: "Helvectia", "Times New Roman", sans-serif;
+}
