@@ -4,3 +4,15 @@
     font-size: 28px;
     font-family: "Helvectia", "Times New Roman", sans-serif;
 }
+
+/*Adding unique styling for first button.*/
+.first{
+    background-color: #000000;
+    color: #ffffff
+}
+
+/*Adding unique styling for second button*/
+.second{
+    background-color: #ffff00;
+    color: #000000
+}
