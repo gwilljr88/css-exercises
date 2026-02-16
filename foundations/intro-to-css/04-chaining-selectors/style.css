@@ -5,3 +5,9 @@
     height: auto;
     width: 300px
 }
+
+/*Adding styling to create a distored image.*/
+.avatar.distorted{
+    width: 200px;
+    height: 400px
+}
